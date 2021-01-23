@@ -2,7 +2,14 @@
 
 follow along with [Postcard Pathtracer](https://fabiensanglard.net/postcard_pathtracer/)
 
-## build
+## macos build
+
+```
+clang -o card -O3 raytracer.cpp
+time ./card > pixar.ppm
+```
+
+## windows build
 
 ```
 git clone https://github.com/InterruptSpeed/pixar_rt
